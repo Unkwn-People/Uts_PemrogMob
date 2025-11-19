@@ -1,0 +1,40 @@
+Nama	: Muhammad Febri Ardiansyah
+NIM	: 071
+Kelas	: 5B1/Informatika
+WIDGET YANG DIGUNAKAN DALAM PEMBUATAN APLIKASI
+MYSHOPMINI
+
+Widget yang digunakan dalam pembuatan aplikasi berbasis flutter dengan nama My ShopMini
+1.StatefulWidget (HomePage)
+Widget yang memiliki state/kondisi yang bisa berubah Digunakan untuk halaman utama karena memiliki interaksi dinamis (carousel, navigasi)
+2.Scaffold
+Menyediakan struktur dasar layout material design memiliki appBar, body, dan backgroundColor
+3.AppBar
+Header aplikasi di bagian atas Menampilkan judul "My ShopMini"
+4.SingleChildScrollView
+Membuat tampilan bisa di-scroll vertikal Mencegah overflow ketika konten melebihi tinggi layar
+5.Column
+Berfungsi untuk menyusun widget secara vertikal
+6.Container
+Widget yang berfungsi untuk styling dan layout Digunakan untuk banner carousel dan card kategori Bisa mengatur padding, margin, decoration, gradient
+7.SizedBox
+Widget ini berfungsi untuk memberikan jarak/spasi tetap antar widget
+8.PageController
+Mengontrol PageView secara programatis Digunakan untuk auto-slide banner setiap 4 detik
+9.Text
+Menampilkan teks dengan styling dan digunakan untuk judul, subjudul, label kategori
+10.Icon
+Menampilkan ikon Material Design dan digunakan untuk representasi visual kategori (smartphone, laptop, dll)
+11.Navigator
+Mengelola navigasi antar halaman
+12.SnackBar
+Notifikasi sementara di bagian bawah layar Muncul ketika kategori belum tersedia
+13.Column
+Menyusun widget secara vertikal di dalam card yang berisi: gambar produk, jarak, nama, dan harga
+14.Expanded
+Membuat widget child mengambil ruang tersisa yang ada Digunakan pada Image.asset agar gambar fleksibel mengisi ruang dan mencegah gambar overflow atau terlalu kecil
+15.Image.asset
+Menampilkan gambar lokal dari folder project atau Path gambar diambil dari data produk
+
+
+
